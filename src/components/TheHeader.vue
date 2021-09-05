@@ -1,11 +1,11 @@
 <template>
-  <header>
-    <h1>Evolution of Windows GUI: From Windows 1 to Windows 11</h1>
-  </header>
+  <p>Evolution of Windows GUI: From Windows 1 to Windows 11</p>
 </template>
 
 <style lang="scss" scoped>
-h1 {
+p {
   text-align: center;
+  margin: 30px;
+  font-size: 60px;
 }
 </style>

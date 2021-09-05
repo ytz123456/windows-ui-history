@@ -1,19 +1,33 @@
 <template>
-  <the-header></the-header>
-  <main>
-    <router-view></router-view>
-  </main>
-  <the-footer></the-footer>
+  <div id="background">
+    <!-- <img :src="imgSrc" alt="backgroundImage" /> -->
+  </div>
+  <el-container>
+    <el-header>
+      <i class="el-icon-menu"></i>
+      Evolution of Windows GUI: <br />
+      from Windows 1 to Windows 11
+    </el-header>
+    <el-main>
+      <router-view></router-view>
+    </el-main>
+    <el-footer>
+      <the-footer></the-footer>
+    </el-footer>
+  </el-container>
 </template>
 
 <script>
-import TheHeader from "./components/TheHeader.vue";
 import TheFooter from "./components/TheFooter.vue";
 
 export default {
   components: {
-    TheHeader,
     TheFooter,
+  },
+  data() {
+    return {
+      imgSrc: require("./assets/img0_2560x1600.jpg"),
+    };
   },
 };
 </script>
@@ -23,6 +37,32 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Russo One", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+#background {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  background-color: #547ea8;
+  // img {
+  //   width: 100%;
+  //   height: 100%;
+  // }
+}
+.el-container {
+  .el-header {
+    text-align: center;
+    margin: 35px auto 10px auto;
+    font-size: 3.8rem;
+    height: 20%;
+    width: 80%;
+    color: rgb(255, 255, 255);
+  }
+  .el-footer {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+  }
 }
 </style>
