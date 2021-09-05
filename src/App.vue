@@ -1,7 +1,5 @@
 <template>
-  <div id="background">
-    <!-- <img :src="imgSrc" alt="backgroundImage" /> -->
-  </div>
+  <div id="background"></div>
   <el-container>
     <el-header>
       <i class="el-icon-menu"></i>
@@ -23,11 +21,6 @@ import TheFooter from "./components/TheFooter.vue";
 export default {
   components: {
     TheFooter,
-  },
-  data() {
-    return {
-      imgSrc: require("./assets/img0_2560x1600.jpg"),
-    };
   },
 };
 </script>

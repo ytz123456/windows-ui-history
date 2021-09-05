@@ -2,24 +2,24 @@
   <el-card class="box">
     <el-container>
       <el-header>
-        <img src="../assets/Windows_logo_-_1985-1989.svg" alt="windows1-logo" />
-        <h2>1985:&nbsp;&nbsp;Windows 1.0</h2>
+        <img src="../assets/me.svg" alt="windowsme-logo" />
+        <h2>2000:&nbsp;&nbsp;Windows ME</h2>
       </el-header>
       <el-container class="content">
         <el-aside width="65%">
-          <img src="../assets/windows1.png" alt="windows1-screenshot" />
+          <img src="../assets/windowsme.png" alt="windowsme-screenshot" />
         </el-aside>
         <el-main>
           <p>
-            This is where it all started for Windows. The original Windows 1 was
-            released in November 1985 and was Microsoft’s first true attempt at
-            a graphical user interface in 16-bit. It was notable because it
-            relied heavily on use of a mouse before the mouse was a common
-            computer input device.
+            Considered a low point in the Windows series by many, Windows
+            Millennium Edition was the last Windows to be based on MS-DOS, and
+            the last in the Windows 9x line. Released in September 2000, it
+            introduced some important concepts to consumers, including more
+            automated system recovery tools.
           </p>
           <div>
             <el-button type="primary" round>Learn More</el-button>
-            <el-button type="primary" round @click="setPage(2)"
+            <el-button type="primary" round @click="setPage(8)"
               >See Next</el-button
             >
           </div>
@@ -43,8 +43,8 @@
     display: flex;
     padding: 0;
     margin-top: 0;
-    margin-bottom: 0;
     justify-content: space-evenly;
+    margin-bottom: 0;
     h2 {
       margin: 20px;
       font-size: 3vw;
@@ -68,7 +68,7 @@
     }
     .el-main {
       p {
-        font-size: 1.35vw;
+        font-size: 1.3vw;
         line-height: 1.5;
         font-family: "Times New Roman", Times, serif;
       }

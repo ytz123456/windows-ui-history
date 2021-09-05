@@ -63,7 +63,7 @@
       margin: 10px auto;
       padding: 10px;
       max-width: 60%;
-      font-size: 1.3vw;
+      font-size: 1.35vw;
     }
   }
 }

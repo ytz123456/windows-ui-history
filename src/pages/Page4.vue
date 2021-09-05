@@ -2,24 +2,23 @@
   <el-card class="box">
     <el-container>
       <el-header>
-        <img src="../assets/Windows_logo_-_1985-1989.svg" alt="windows1-logo" />
-        <h2>1985:&nbsp;&nbsp;Windows 1.0</h2>
+        <img src="../assets/Windows_logo_-_1992.svg" alt="windows3-logo" />
+        <h2>1992:&nbsp;&nbsp;Windows 3.1</h2>
       </el-header>
       <el-container class="content">
         <el-aside width="65%">
-          <img src="../assets/windows1.png" alt="windows1-screenshot" />
+          <img src="../assets/windows3.1.png" alt="windows3.1-screenshot" />
         </el-aside>
         <el-main>
           <p>
-            This is where it all started for Windows. The original Windows 1 was
-            released in November 1985 and was Microsoft’s first true attempt at
-            a graphical user interface in 16-bit. It was notable because it
-            relied heavily on use of a mouse before the mouse was a common
-            computer input device.
+            Windows 1 and 2 both had point release updates, but Windows 3.1
+            released in 1992 is notable because it introduced TrueType fonts
+            making Windows a viable publishing platform for the first time.<br />
+            Windows 3.1 was the first in a series of 16-bit operating systems.
           </p>
           <div>
             <el-button type="primary" round>Learn More</el-button>
-            <el-button type="primary" round @click="setPage(2)"
+            <el-button type="primary" round @click="setPage(5)"
               >See Next</el-button
             >
           </div>
@@ -43,7 +42,6 @@
     display: flex;
     padding: 0;
     margin-top: 0;
-    margin-bottom: 0;
     justify-content: space-evenly;
     h2 {
       margin: 20px;

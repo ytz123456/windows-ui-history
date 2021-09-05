@@ -2,24 +2,24 @@
   <el-card class="box">
     <el-container>
       <el-header>
-        <img src="../assets/Windows_logo_-_1985-1989.svg" alt="windows1-logo" />
-        <h2>1985:&nbsp;&nbsp;Windows 1.0</h2>
+        <img src="../assets/layer1497.png" alt="windows3-logo" />
+        <h2>1990:&nbsp;&nbsp;Windows 3.0</h2>
       </el-header>
       <el-container class="content">
         <el-aside width="65%">
-          <img src="../assets/windows1.png" alt="windows1-screenshot" />
+          <img src="../assets/windows3.png" alt="windows3-screenshot" />
         </el-aside>
         <el-main>
           <p>
-            This is where it all started for Windows. The original Windows 1 was
-            released in November 1985 and was Microsoft’s first true attempt at
-            a graphical user interface in 16-bit. It was notable because it
-            relied heavily on use of a mouse before the mouse was a common
-            computer input device.
+            Windows 3 introduced the ability to run MS-DOS programmes in
+            windows, which brought multitasking to legacy programmes, and
+            supported 256 colours bringing a more modern, colourful look to the
+            interface. More important, it introduced the card-moving timesink
+            (and mouse use trainer) Solitaire.
           </p>
           <div>
             <el-button type="primary" round>Learn More</el-button>
-            <el-button type="primary" round @click="setPage(2)"
+            <el-button type="primary" round @click="setPage(4)"
               >See Next</el-button
             >
           </div>
@@ -31,7 +31,7 @@
 
 <style lang="scss" scoped>
 .box {
-  background-color: #373a9e;
+  background-color: #30a994;
   width: 70%;
   margin: 20px auto;
   height: 60vh;
@@ -43,8 +43,8 @@
     display: flex;
     padding: 0;
     margin-top: 0;
-    margin-bottom: 0;
     justify-content: space-evenly;
+    margin-bottom: 0;
     h2 {
       margin: 20px;
       font-size: 3vw;
@@ -68,7 +68,7 @@
     }
     .el-main {
       p {
-        font-size: 1.35vw;
+        font-size: 1.3vw;
         line-height: 1.5;
         font-family: "Times New Roman", Times, serif;
       }

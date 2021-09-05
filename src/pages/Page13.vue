@@ -2,26 +2,31 @@
   <el-card class="box">
     <el-container>
       <el-header>
-        <img src="../assets/Windows_logo_-_1985-1989.svg" alt="windows1-logo" />
-        <h2>1985:&nbsp;&nbsp;Windows 1.0</h2>
+        <img src="../assets/win11logo.png" alt="windows11-logo" />
+        <h2>2021:&nbsp;&nbsp;Windows 11</h2>
       </el-header>
       <el-container class="content">
         <el-aside width="65%">
-          <img src="../assets/windows1.png" alt="windows1-screenshot" />
+          <img src="../assets/windows11.jpg" alt="windows11-screenshot" />
         </el-aside>
         <el-main>
           <p>
-            This is where it all started for Windows. The original Windows 1 was
-            released in November 1985 and was Microsoft’s first true attempt at
-            a graphical user interface in 16-bit. It was notable because it
-            relied heavily on use of a mouse before the mouse was a common
-            computer input device.
+            Windows 11 is an upcoming major version of the Windows NT operating
+            system, scheduled to be released on October 5, 2021. A redesigned
+            interface is present throughout the operating system; translucency,
+            shadows, a new color palette, and rounded geometry are prevalent
+            throughout the UI.
           </p>
           <div>
             <el-button type="primary" round>Learn More</el-button>
-            <el-button type="primary" round @click="setPage(2)"
-              >See Next</el-button
+            <a
+              href="https://en.wikipedia.org/wiki/Microsoft_Windows_version_history"
+              target="_blank"
             >
+              <el-button type="primary" round>
+                Click for Windows version history
+              </el-button>
+            </a>
           </div>
         </el-main>
       </el-container>
@@ -43,8 +48,8 @@
     display: flex;
     padding: 0;
     margin-top: 0;
-    margin-bottom: 0;
     justify-content: space-evenly;
+    margin-bottom: 0;
     h2 {
       margin: 20px;
       font-size: 3vw;
@@ -68,7 +73,7 @@
     }
     .el-main {
       p {
-        font-size: 1.35vw;
+        font-size: 1.3vw;
         line-height: 1.5;
         font-family: "Times New Roman", Times, serif;
       }
